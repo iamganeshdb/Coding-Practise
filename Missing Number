@@ -1,0 +1,20 @@
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+import java.util.LinkedHashSet;
+import java.util.HashSet;
+
+public class Main {
+    public static void main(String[] args) {
+
+int[]arr={1,2,3,4,6};
+int n=arr.length+1;
+int actualsum=0;
+int expectedsum=n*(n+1)/2;
+for(int num:arr)
+{
+    actualsum +=num;
+}
+int result=expectedsum-actualsum;
+System.out.println(result);
+}}
